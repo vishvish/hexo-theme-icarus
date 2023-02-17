@@ -37,6 +37,7 @@ module.exports = class extends Component {
                 <Footer config={config} helper={helper} />
                 <Scripts site={site} config={config} helper={helper} page={page} />
                 <Search config={config} helper={helper} />
+                <script defer src="/_vercel/insights/script.js"></script>
             </body>
         </html>;
     }
